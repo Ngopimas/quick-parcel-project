@@ -1,0 +1,18 @@
+body {
+  font-family: "eesti";
+  font-size: 16px;
+  background: #fdfdfd;
+}
+
+.container {
+  padding: 0 1rem;
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0 24px;
+  }
+}
